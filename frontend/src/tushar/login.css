@@ -1,0 +1,112 @@
+.container-fluid{
+    /* width: 100vw;
+    height: 100vh;
+    padding: 5rem; */
+  }
+  .mycontainer{
+    min-height: 100vh;
+    height: fit-content;
+    width: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+    align-content: center;
+  }
+  .left{
+    border-right: 1px solid black;
+  }
+  .sub-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 3rem;
+    text-align: center;
+  }
+  .sub-left h1{
+    font-size: 32px;
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .sub-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .right-login{
+    text-align: center;
+  }
+  .right-login h1{
+    font-size: 48px;
+  }
+  .right-login p{
+    font-size: 16px;
+  }
+  
+  .right form .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .right form button{
+    font-size: 20px;
+    background-color: #00c68a;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .foot{
+    text-align: center;
+  }
+  @media screen and (max-width:700px){
+    .container-fluid{
+        /* width: 100vw;
+        height: 100vh;
+        padding: 2rem 1rem 0 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem; */
+    }
+    .left{
+        border-right: none;
+    }
+    .sub-left{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+    }
+    .sub-left img{
+        height: 60px;
+        width: 60px;
+    }
+    .sub-left h1{
+        font-size: 16px;
+    }
+    .right{
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .right-login h1{
+        font-size: 32px;
+    }
+    .right-login p{
+        font-size: 15px;
+    }
+    .sub-right{
+        gap: 1rem;
+    }
+    .foot{
+        font-size: 12px;
+    }
+  }

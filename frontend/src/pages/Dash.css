@@ -1,0 +1,107 @@
+.colour-picker {
+    background-color: #375296;
+  }
+  .dashboard {
+    /* width: 900px; */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .navbar-logo img {
+    height: 150px;
+  }
+  
+  .student-card {
+    width: 100%;
+  }
+  
+  .student-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 3rem;
+  }
+  
+  .student-details {
+    font-size: 18px;
+  }
+  
+  .student-details h2 {
+    margin-bottom: 10px;
+  }
+  .card {
+    box-shadow: 5px 5px 15px rgb(77, 73, 73);
+    width: 18rem;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .buttons button {
+    background-color: rgb(32, 32, 181);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    color: white;
+  }
+
+  .mycontainer_withH{
+    height:fit-content;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .mycontainer_withH{
+      height: auto;
+    }
+    .dashboard {
+      width: 400px;
+      padding: 1rem;
+    }
+    .navbar {
+      margin: 0 3px 0 0;
+    }
+    .navbar img {
+      height: 70px;
+    }
+    .navbar h1 {
+      font-size: 15px;
+    }
+    .student-image img {
+      width: 100px;
+      height: 100px;
+      margin-left: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .student-details {
+      text-align: center;
+    }
+    .student-details {
+      font-size: 14px;
+    }
+  
+    .student-details h2 {
+      margin-bottom: 3px;
+      font-size: 18px;
+    }
+    .student-details p {
+      margin: 0;
+    }
+  
+    .card {
+      width: 16rem;
+    }
+  }
+  
